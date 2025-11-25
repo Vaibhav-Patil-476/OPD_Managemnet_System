@@ -1,0 +1,69 @@
+package com.OPD_Managemnet_System.OPD_DTOs;
+
+import java.sql.Date;
+
+public class Referral_Center_DTO {
+
+private String name;
+	
+	private String type;
+	
+	private int contact_info;
+	
+	private String address;
+	
+	private Date created_at;
+	
+	private int docterid;
+
+	//Genarate Getter Setter for Store temp Data 
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public int getContact_info() {
+		return contact_info;
+	}
+
+	public void setContact_info(int contact_info) {
+		this.contact_info = contact_info;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public Date getCreated_at() {
+		return created_at;
+	}
+
+	public void setCreated_at(Date created_at) {
+		this.created_at = created_at;
+	}
+
+	public int getDocterid() {
+		return docterid;
+	}
+
+	public void setDocterid(int docterid) {
+		this.docterid = docterid;
+	}
+	
+	
+}
