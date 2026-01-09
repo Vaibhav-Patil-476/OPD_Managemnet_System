@@ -16,7 +16,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name="Bills")
 public class Bill {
-
+	//Primary Key
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	
